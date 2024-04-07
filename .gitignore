@@ -1,0 +1,9 @@
+mooreElijah-Project-Proposal/logs
+mooreElijah-Project-Proposal/.DS_Store
+mooreElijah-Project-Proposal/.ipynb_checkpoints
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.pdf
