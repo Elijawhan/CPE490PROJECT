@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{hyperref}
 \title{Project Proposal}
 \author{Elijah Moore}
 
@@ -10,15 +11,15 @@
    Through the use of stock trading algorithms, large firms are able to take advantage of market corrections
    to turn a profit. The stock market/valuation of financial assets could be considered something of a stochastic system.
    
-   I plan for my project to use some of the vast amounts of data available on finances to
+   My project uses some of the vast amounts of data available on finances to
    create buy/sell indicators for stock trading.
 
 \section{Dataset Proposal}
-    I Intend to use yfinance's ticker module to access trading data on stocks.
+    I use yfinance's ticker module to access trading data on stocks.
     This yfinance submodule allows access to a larger number of input parameters than merely the price of the stock at a given moment.
-    It also includes data about trades that are being made by `insiders' of a company.
+    It also includes data about trades that are being made by `insiders' of a company, which will be useful for future iterations of this project.
 
-    I intend to evaluate the following stocks based off of daily closing price over the last two years.
+    The following stocks are evaluated based off of daily closing price over the last two years.
     \begin{enumerate}
         \item Apple (AAPL)
         \item Tesla (TSLA)
@@ -44,5 +45,7 @@
 
     % This will involve
     
-
+\section{Appendix}
+    The code is available
+    \hyperlink{https://github.com/Elijawhan/CPE490PROJECT}{Here}
 \end{document}
