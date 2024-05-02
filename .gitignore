@@ -8,3 +8,5 @@ mooreElijah-Project-Proposal/.ipynb_checkpoints
 *.synctex.gz
 *.pdf
 *.out
+*.h5
+*.csv
