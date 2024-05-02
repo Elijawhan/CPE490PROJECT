@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{hyperref}
+\title{Project Proposal}
+\author{Elijah Moore}
+
+\begin{document}
+
+\maketitle
+\section{Status update notes}
+    I am not sure where to begin building a model for this particular task. I am rethinking the reinforcement learning method, as we have not discussed that yet.
+    Thus I am thinking I may instead go with an RNN To build the model. Additionally,
+    I have little time left to devote to this project after doing the homework and work for my other classes.
+
+    With that being said, I am doing my best with the power of the internet!
+
+    https://www.datacamp.com/tutorial/lstm-python-stock-market
+
+    The code I stole the LSTM Code from this, and I need to go through it and make it better.
+    There has not been a ton of progress to be honest.
+
+\section{Introduction}
+
+   Through the use of stock trading algorithms, large firms are able to take advantage of market corrections
+   to turn a profit. The stock market/valuation of financial assets could be considered something of a stochastic system.
+   
+   My project uses some of the vast amounts of data available on finances to
+   create buy/sell indicators for stock trading.
+
+\section{Dataset Proposal}
+    I use yfinance's ticker module to access trading data on stocks.
+    This yfinance submodule allows access to a larger number of input parameters than merely the price of the stock at a given moment.
+    It also includes data about trades that are being made by `insiders' of a company, which will be useful for future iterations of this project.
+
+    The following stocks are evaluated based off of daily closing price over the last two years.
+    \begin{enumerate}
+        \item Apple (AAPL)
+        \item Tesla (TSLA)
+        \item Microsoft (MSFT)
+        \item Nvidia (NVDA)
+        \item Ford (F)
+        \item Google (GOOGL)
+    \end{enumerate}
+\section{Design of experiment and evaluation of results}
+
+    The intent is to use a reinforcement learning model to devise an optimal strategy to trade stocks.
+    The method for this will be to reserve Apple for final evaluation, and use the rest for training the model.
+    
+    The evaluation will be based off of the Quantity of money made by the strategy chosen.
+
+    % I have a copy of the entire Bee Movie, which has been compressed, and reduced down to 49.5 Megabytes.
+    % The normal size of this movie is much higher. 
+
+    % I would like to use Matlab to improve the quality of this recording, and increase the resolution back to 1980 * 1080 Pixels.
+    % Additionally, I am sure the audio could use some touching up and resampling to a higher sample rate.
+    
+    % The Idea which I would like to implement is to increase the quality of a crappy recording of a movie.
+
+    % This will involve
+    
+\section{Appendix}
+    The code is available
+    \hyperlink{https://github.com/Elijawhan/CPE490PROJECT}{Here}
+\subsection*{References: }
+    \hyperlink{https://www.datacamp.com/tutorial/lstm-python-stock-market}{www.datacamp.com}
+\end{document}
