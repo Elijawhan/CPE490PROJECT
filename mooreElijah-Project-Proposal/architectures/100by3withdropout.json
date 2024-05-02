@@ -1,6 +1,6 @@
 {
 	"data": {
-		"filename": "AAPL.csv",
+		"filename": "F.csv",
 		"columns": [
 			"Close",
 			"Volume"
@@ -10,7 +10,7 @@
 		"normalise": true
 	},
 	"training": {
-		"epochs": 2,
+		"epochs": 20,
 		"batch_size": 32
 	},
 	"model": {

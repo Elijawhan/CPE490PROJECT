@@ -10,3 +10,8 @@ mooreElijah-Project-Proposal/.ipynb_checkpoints
 *.out
 *.h5
 *.csv
+*.bbl
+*.xml
+*.dvi
+*.bcf
+*.blg
